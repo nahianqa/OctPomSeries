@@ -5,14 +5,15 @@ public class MyLaptop {
 	String brand;
 	String model;
 	int price;
-	 int warranty;
+	 static int warranty;
+	 
 
 	public static void main(String [] args){
 	MyLaptop laptop = new MyLaptop();
 	laptop.brand= "HP";
 	laptop.model = "G17";
 	laptop.price = 350;
-	laptop.warranty=3;
+	warranty=3;
 laptop.checkWarranty(warranty);
 
 	}
